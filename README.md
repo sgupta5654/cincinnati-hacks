@@ -1,6 +1,6 @@
 # cincinnatiHacks
 
-> This repo is to share all files, code, and ideas for the Cincinnati hackathon. Check on updates on here and if you ever are wondering what to work on, check here. We'll use this as the file manager during the hackathon. Links, bits of code, or parts of the project should be uploaded to GitHub when edited. Paste working/helpful code into the playground.
+> This repo is to share all files, code, and ideas for the Cincinnati hackathon. Check on updates on here and if you ever are wondering what to work on, check here. We'll use this as the file manager during the hackathon. Links, bits of code, or parts of the project should be uploaded to GitHub when edited. Paste working/helpful code into the playground. Post any apps you guys work on this week on the repo so I know what you guys have done/are doing. This will be helpful for future hackathons too.
 
 ### Ideas
  - App for disabled people. Would potentially include volunteer help, sign language -> text (using video feed) and back (using 3d model, potentially ARKit), disability controls for those who lack fine motor skills (using the video feed hand scanning or large easy to use controls for mentally disabled), translates different sign languages
