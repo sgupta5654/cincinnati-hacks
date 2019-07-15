@@ -3,6 +3,7 @@
 > This repo is to share all files, code, and ideas for the Cincinnati hackathon. Check on updates on here and if you ever are wondering what to work on, check here. We'll use this as the file manager during the hackathon. Links, bits of code, or parts of the project should be uploaded to GitHub when edited. Paste working/helpful code into the playground. Post any apps you guys work on this week on the repo so I know what you guys have done/are doing. This will be helpful for future hackathons too.
 
 ### Ideas
+ - App for instructional videos using AR, as well as real time support (think tutoring but with AR, so the teacher draws to help you, will have a similar pitch as Peloton, can be used for work and sports)
  - App for disabled people. Would potentially include volunteer help, sign language -> text (using video feed) and back (using 3d model, potentially ARKit), disability controls for those who lack fine motor skills (using the video feed hand scanning or large easy to use controls for mentally disabled), translates different sign languages
  - App for crypto investment managment (idk where to go with this but I can ask a kid I know who works at a crypto company if you guys are interested in this one)
  - AR game (platformer, can be mario-esque or like crossy road)
