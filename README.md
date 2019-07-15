@@ -5,7 +5,7 @@
 ### Ideas
  - App for instructional videos using AR, as well as real time support (think tutoring but with AR, so the teacher draws to help you, will have a similar pitch as Peloton, can be used for work and sports)
  - App for disabled people. Would potentially include volunteer help, sign language -> text (using video feed) and back (using 3d model, potentially ARKit), disability controls for those who lack fine motor skills (using the video feed hand scanning or large easy to use controls for mentally disabled), translates different sign languages
- - App for crypto investment managment (idk where to go with this but I can ask a kid I know who works at a crypto company if you guys are interested in this one)
+ - ~~App for crypto investment managment (idk where to go with this but I can ask a kid I know who works at a crypto company if you guys are interested in this one)~~ this one isn't a legitmate idea until the guy responds, so ignore it for now
  - AR game (platformer, can be mario-esque or like crossy road)
  - Different AR game (like Pokemon Go)
  - game with sword motion controls
