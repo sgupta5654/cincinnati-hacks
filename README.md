@@ -31,3 +31,12 @@ https://stackoverflow.com/ (good community for asking questions, post with error
  - figure out how to animate 3d object (make them work like animojis)
 ... add more
 
+_Right now I'm mostly gravitating towards the idea about using AR drawing for tutoring and stuff. The crypto app would essentially be an easy to use interface for checking up on currency (think serious market data in easy to view visuals) and a sort of compilation of all the different crypto wallets a person might have._
+#### DESIGN NOTES FOR AR TUTORING APP
+- modern (SwiftUI?) design for viewing videos, instructors' profiles, and categories for tutoring
+- We should model the video chat like Facetime, with a toolbar for drawing and placing objects
+- easy/interesting to use switcher between tutoring and prerecorded videos (maybe just a nav bar at the bottom of the screen like youtube, with an extra icon for facetime)
+> A bonus could be handtracking and gesture controls to use when doing AR activities.
+
+> Some selling points that we should demonstrate in the presentation are the multi-platform support, as well as support for headsets like google cardboard; ease of use, mainly showing how you can set up your phone and get going; we can do a live tutoring demo, only if we have that working; and I can try to skype my camp instructors for a little review/quote to show in our presentation. 
+***Avi if you're reading this, it should look like a kickstarter ad like in one of those 'Top 10 coolest travel items' videos or whatever.
