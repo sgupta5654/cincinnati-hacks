@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="First_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999999999999996" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q44-mD-cP7">
+                                <rect key="frame" x="202" y="438" width="10.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rd2-Ts-h6R">
+                                <rect key="frame" x="140" y="468.5" width="134" height="30"/>
+                                <state key="normal" title="Payment Calculator"/>
+                                <connections>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yha-Jd-mft"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tip" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EsY-yP-6uI">
+                                <rect key="frame" x="132" y="388" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="hMz-HJ-MoQ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Tax" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E5N-OY-gog">
+                                <rect key="frame" x="132" y="348" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="LAt-WO-7dk"/>
+                                    <constraint firstAttribute="height" constant="30" id="sUz-uh-DXP"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cost" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wk2-9m-bMC">
+                                <rect key="frame" x="132" y="308" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="gAu-MV-TDX"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q44-mD-cP7" firstAttribute="top" secondItem="EsY-yP-6uI" secondAttribute="bottom" constant="20" id="1Ib-bL-8gF"/>
+                            <constraint firstItem="EsY-yP-6uI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2e1-fS-5Mb"/>
+                            <constraint firstItem="Wk2-9m-bMC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D9h-Hr-PrW"/>
+                            <constraint firstItem="q44-mD-cP7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DL6-hz-hUp"/>
+                            <constraint firstItem="Rd2-Ts-h6R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OmA-1N-7LY"/>
+                            <constraint firstItem="E5N-OY-gog" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XtJ-Cy-hMn"/>
+                            <constraint firstItem="Wk2-9m-bMC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cca-hc-P8T"/>
+                            <constraint firstItem="q44-mD-cP7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fVh-KW-98b"/>
+                            <constraint firstItem="E5N-OY-gog" firstAttribute="top" secondItem="Wk2-9m-bMC" secondAttribute="bottom" constant="10" id="qR4-lJ-w8Z"/>
+                            <constraint firstItem="EsY-yP-6uI" firstAttribute="top" secondItem="E5N-OY-gog" secondAttribute="bottom" constant="10" id="qfF-4B-kiw"/>
+                            <constraint firstItem="Rd2-Ts-h6R" firstAttribute="top" secondItem="q44-mD-cP7" secondAttribute="bottom" constant="10" id="tUE-XB-JYV"/>
+                            <constraint firstItem="q44-mD-cP7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uu0-R7-fCr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myfirstlabel" destination="q44-mD-cP7" id="c9r-g9-NLt"/>
+                        <outlet property="taxText" destination="E5N-OY-gog" id="Qyg-US-pcA"/>
+                        <outlet property="tipText" destination="EsY-yP-6uI" id="rZb-SS-nWF"/>
+                        <outlet property="totalText" destination="Wk2-9m-bMC" id="LIX-17-qks"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="40.848214285714285"/>
+        </scene>
+    </scenes>
+</document>
